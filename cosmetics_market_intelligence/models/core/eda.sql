@@ -1,0 +1,6 @@
+-- select
+--     column1,
+--     column2,
+--     sum(column3) as total_column3
+-- from {{ ref('cosmetics_market_intelligence/seeds/most_used_beauty_cosmetics_products_extended.csv') }}
+-- group by column1, column2
